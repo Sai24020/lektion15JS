@@ -7,7 +7,7 @@ myBtnEl.addEventListener("click", (event) => {
 
     console.log(event);
   //  alert("Hej");
-  
+
   myImageObject.forEach(imageObject => {
     console.log(imageObject);
 
@@ -20,7 +20,7 @@ myBtnEl.addEventListener("click", (event) => {
     collageContainerEl.appendChild(newImgEl);
 });
 });
-//appendchild()  deletchild()
+//appendchild()  
 //const newEl = document.createElement("img");
 
 const collageContainerEl = document.querySelector(".collage-container");
@@ -29,17 +29,17 @@ const collageContainerEl = document.querySelector(".collage-container");
 
 const myImageObject = [
     {
-        src: "img/dice4",
+        src: "./img/dice4.png",
         altText: "Cute",
         textColor: "blue"
     },
     {
-        src: "img/dice5",
+        src: "img/dice5.png",
         altText: "Cute",
         textColor: "red"
     },
     {
-        src: "img/dice4",
+        src: "img/dice6.png",
         altText: "Living room",
         textColor: "aqua"
     }
