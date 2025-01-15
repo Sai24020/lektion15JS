@@ -5,3 +5,10 @@
     background-color: black;;
     color: white;
 }
+
+.collage-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
